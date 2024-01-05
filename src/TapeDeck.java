@@ -11,8 +11,7 @@ class TapeDeck {
 }
 
 class TapeDeckTestDrive {
-    private static TapeDeck t;
-
+    TapeDeck t = new TapeDeck();
     public static void main (String[] args) {
         t.canRecord = true;
         t.playTape();
