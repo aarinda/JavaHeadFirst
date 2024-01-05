@@ -4,6 +4,9 @@ class DVDPlayer {
     void recordDVD () {
         System.out.println("DVD recording");
     }
+    void playDVD () {
+        System.out.println("DVD Playing!");
+    }
 }
 
 class DVDPlayerTestDrive {
